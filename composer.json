@@ -1,0 +1,29 @@
+{
+  "name": "webdevbren/Xero",
+  "description": "Easy Xero Implementation in Laravel 4.",
+  "keywords": ["laravel","Xero"],
+  "homepage": "https://www.webdevbren.co.uk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brendan Ingham",
+      "email": "brendan@the-tool-shed.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "xero/xerooauth-php": "dev-master",
+    "laravel/laravel": "4.1.*",
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "src/",
+    ],
+    "psr-0": {
+      "WebDevBren\\Xero": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
