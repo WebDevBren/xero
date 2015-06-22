@@ -3,10 +3,10 @@
 return [
 
     'default' => [
-        'application_type' => 'Public',
+        'application_type' => '',
 
-        'consumer_key' => 'NMJIHFMUNDNH7D1GOAZNNVSLOBNWCW',
-        'shared_secret' => '1CH2IHTDJIANDTK00ZWLMTB08LMZ90',
+        'consumer_key' => '',
+        'shared_secret' => '',
 
         'rsa_public_key' => storage_path('/Oauth/Xero/public_key.pub'),
 
@@ -15,7 +15,7 @@ return [
         'payroll_version' => '1.0',
         'file_version' => '1.0',
 
-        'user_agent' => "tabsview_new",
+        'user_agent' => "",
 
         'request_token_path' => 'oauth/RequestToken',
         'access_token_path' => 'oauth/AccessToken',
